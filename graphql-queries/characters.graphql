@@ -1,0 +1,20 @@
+query listCharacter($filter: FilterCharacter, $page: Int) {
+  characters(filter: $filter, page: $page) {
+    results {
+      id
+      image
+      name
+      status
+      species
+      location {
+        name
+        dimension
+      }
+      gender
+      episode {
+        id
+        name
+      }
+    }
+  }
+}
