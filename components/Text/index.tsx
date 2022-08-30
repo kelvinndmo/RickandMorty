@@ -9,6 +9,7 @@ import {
   typography,
   TypographyProps,
   ColorProps,
+  ShadowProps,
 } from "styled-system";
 
 type TextProps = TypographyProps & SizeProps & SpaceProps & ColorProps;
