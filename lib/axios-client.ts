@@ -4,7 +4,7 @@ const options = {
   baseURL: "https://rickandmortyapi.com",
   headers: {
     "Content-Type": "application/json",
-    "apollographql-client-name": "WOOWZI",
+    "apollographql-client-name": "rickandmorty",
     Accept: "application/json",
   },
 };
